@@ -1,0 +1,53 @@
+.step {
+    margin-top: 140px;
+}
+
+.step__title {
+    display: block;
+    width: 678px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.step__title-mod {
+    border-bottom: 7px solid linear-gradient(264.91deg, #7C4EAB 0.73%, #DD51D4 95.85%);
+}
+
+.step__text {
+    width: 846px;
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+}
+.cards {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards__block {
+    width: 290px;
+    margin-top: 10px;
+}
+
+.cards__block-image {
+    width: 70px;
+    height: 70px;
+    background-color: #CF51CE;
+    padding: 11px;
+    border-radius: 15px;
+}
+
+.cards__block-title {
+    margin: 15px 0;
+}
+
+.cards__block-text {
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}

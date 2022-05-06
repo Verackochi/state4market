@@ -1,0 +1,101 @@
+@import 'base/*.scss';
+@import 'global/*.scss';
+@import '**/_*.scss';
+@import '../components/**/*.scss';
+
+
+.menu__list {
+    list-style: none;
+}
+
+.menu__list-link, .phone,
+.link__now,
+.link__prew {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1560px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 54px 0;
+}
+
+.header__text{
+    display: block;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* or 129% */
+    width: 204px;
+    color: rgba(51, 26, 47, 0.9);
+    margin-left: 15px;
+
+}
+
+.header__text::before {
+    content:" ";
+    background:  rgba(51, 26, 47, 0.9);
+    width: 80px;
+    height: 5px;
+}
+
+.menu__list-item {
+    margin-left: 50px;
+} 
+
+.menu__list-link,
+.phone {
+    color: #331A2F;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+.menu__list-link:hover,
+.phone:hover {
+    color: #CF51CE;
+}
+
+.--arow-down::after {
+    content: url(../img/arrowmini.png);
+}
+
+.entrance {
+    display: flex;
+    align-items: center;
+    padding: 11px 32px;
+    border:none;
+    background: #CF51CE;
+    border-radius: 12px;
+    color: #ffffff;
+    font-family: 'Lato';
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 35px;
+
+    &:hover {
+        transition: all 0.3s;
+        background: #000;
+    }
+}
+
+.entrance__icon {
+    display: block;
+    margin-right: 5px;
+}
+
+.link__now, .link__prew {
+    color: rgba(51, 26, 47, 0.5);
+}
+
+.phone::before {
+    content: url('../img/tellefon.svg');
+}

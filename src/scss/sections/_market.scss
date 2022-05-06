@@ -1,0 +1,42 @@
+.market {
+    margin-top: 121px;
+}
+
+
+.market__wrapper {
+
+}
+
+.market__price {
+    width: 868px;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 29px;
+
+    &-number {
+        font-family: 'Lato';
+        font-size: 35px;
+        font-weight: 400;
+        line-height: 29px;
+
+    }
+}
+
+
+.market__price::before {
+    content: url('../img/spent.svg');
+}
+
+.market__text {
+    margin-top: 15px;
+}
+
+.market__image {
+    background-image: url('../img/Bg stars.svg');
+    width: 620px;
+}
+
+.market__image-super {
+    width: 620px;
+}
